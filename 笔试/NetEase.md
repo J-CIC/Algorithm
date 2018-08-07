@@ -52,7 +52,7 @@ void insert(node *head,int value){
 	node *temp = new node();
 	temp->value = value;
 	while(curr->next!=NULL){
-		//notice the 
+		//notice the order here
 		if(curr->next->value==value){
 			node *for_delete = curr->next;
 			curr->next = curr->next->next;
