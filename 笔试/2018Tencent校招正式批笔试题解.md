@@ -120,7 +120,7 @@ int main(){
                 continue;
             }
             bool flag = false;
-            for(int i=1;i<=b*c;i++){
+            for(int i=1;i<=b-1;i++){
                 if((a*i)%b==c){
                     cout<<"YES"<<endl;
                     flag = true;
